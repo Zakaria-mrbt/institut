@@ -1,0 +1,7 @@
+@mixin googleFonts($font){
+	@import url('https://fonts.googleapis.com/css?family=#{$font}');
+}
+
+
+@import"_universalselector.scss";
+@import"_header.scss";

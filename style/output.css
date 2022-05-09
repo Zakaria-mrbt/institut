@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: 0;
+  background-color: #FFFFFF;
+  font-family: "Open Sans";
+}
+
+header .header1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 2%;
+}
+header .header1 .lb_1-2 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: auto;
+}
+header .header1 .lb_1-2 .essentielle {
+  width: 200px;
+  height: auto;
+}
+header .header1 .lb_1-2 .btn_adresse {
+  border: solid 2px #73923A;
+  border-radius: 90px;
+  height: 70px;
+  width: 300px;
+}
+header .header1 .lb_1-2 .btn_adresse .adresse_links {
+  background: none;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  padding-left: 20px;
+  position: relative;
+  bottom: 15px;
+}
+header .header1 .lb_1-2 .btn_adresse .imgg {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  background-image: url(https://img.icons8.com/ios-filled/50/26e07f/order-delivered.png);
+  background-size: cover;
+}
+header .header1 .lb_1-2 .btn_adresse:hover {
+  background-color: #83A04E;
+  color: #FFFFFF;
+}
+header .header1 .lb_1-2 .btn_adresse:hover .imgg {
+  background-image: url(https://img.icons8.com/ios/50/26e07f/order-delivered.png);
+  background-size: cover;
+}
+header .header1 .lb_3-5 {
+  cursor: pointer;
+  margin-left: auto;
+}
+header .header1 .lb_3-5 .provencesanté {
+  width: 146px;
+  height: auto;
+}
+header .header1 .lb_3-5 .bloomea {
+  width: 130px;
+  height: auto;
+}
+header .header1 .lb_3-5 .allonature {
+  width: 80px;
+  height: auto;
+}
+header .header2, header .navbar {
+  background-color: #73923A;
+  width: 100%;
+  height: 100px;
+}
+header .header2 .navlink, header .header2 .navlinks, header .header2 a, header .navbar .navlink, header .navbar .navlinks, header .navbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #73923A;
+  text-decoration: none;
+  list-style: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+header .header2 span, header .navbar span {
+  display: flex;
+  color: #FFFFFF;
+  width: 80%;
+  height: 3px;
+  margin-left: 10%;
+  border-radius: 90px;
+}
+
+/*# sourceMappingURL=output.css.map */
