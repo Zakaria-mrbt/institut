@@ -1,12 +1,4 @@
 <footer>
-    <div class="footer1_lu1"> 
-    <div class="footer_info_lu1">
-        <h3 class="footer_title_lu1">Liens Utiles</h3>
-        <a href="#" class="info_links">Provence Santé, notre partenaire principal</a>
-        <a href="#" class="info_links">Allo'Nature</a>
-        <a href="#" class="info_links">Modeling Bloomea</a>
-    </div></div>
-   
     <div class="footer1">
     
      <div class="footer_info">
@@ -15,21 +7,23 @@
      <div><img src="img/Mailfooter.png" alt="Email"><p>c.esthetique13005@outlook.fr</p></div>
     </div>
     <div class="footer_info">
-        <h3 class="footer_title_lu">Liens Utiles</h3>
+        <h3 class="footer_title">Liens Utiles</h3>
+        <div class="footer_info_lu">
         <a href="#" class="info_links">Provence Santé, notre partenaire principal</a>
         <a href="#" class="info_links">Allo'Nature</a>
         <a href="#" class="info_links">Modeling Bloomea</a>
+        </div>
     </div>
-    <div class="footer_info">
+    <div class="footer_info" class="footer_horaire">
         <h3 class="footer_title">Horaires</h3>
-        <div class="footer_horaire">
+        <div>
             <div>
-             <ul>
+             <ul class="footer_horaires">
                 <li>Lundi</li>
                 <li>Mardi</li>
                 <li>Mercredi</li>
             </ul> 
-            <ul>
+            <ul class="footer_horaires">
                 <li>Fermé</li>
                 <li>09h00-12h30 / 14530-19h00</li>
                 <li>09h00-12h30 / 14530-19h00</li>
@@ -37,13 +31,13 @@
             </div>
             <span></span>
             <div>
-            <ul>
+            <ul class="footer_horaires" >
                 <li>Jeudi</li>
                 <li>Vendredi</li>
                 <li>Samedi</li>
                 <li>dimanche</li>
             </ul> 
-            <ul>
+            <ul class="footer_horaires" >
                 <li>09h00-12h30 / 14h30-19h00</li>
                 <li>09h00-12h30 / 14h30-19h00</li>
                 <li>09h00-12h30 / 14h30-19h00</li>

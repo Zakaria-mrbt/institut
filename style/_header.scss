@@ -97,7 +97,7 @@ header {
         width: 100%;
         height: 100px;
             
-      .navlink, .navlinks, a{
+      .navlink, .navlinks, .a_navlinks{
           display: flex;
           justify-content: center;
           align-items: center; 
@@ -112,11 +112,9 @@ header {
           padding-right: 0.9vw;
       }
       
-      span{
+      .span_header{
           display: flex;
-          
-          
-        color: #FFFFFF;
+          color: #FFFFFF;
           width: 80%;
           height: 3px;
           margin-left: 10%;
@@ -146,208 +144,5 @@ width: 100%;
         }
     }
 
-}
-@media screen and (max-width:1080px){
-    .header1 {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 10px 2%;
-        .lb_1-2 {
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-
-            margin-right: auto;
-
-            .essentielle {
-                width: 200px;
-                height: auto;
-                padding-right: 20px;
-            }
-            
-            .btn_adresse {
-                display:none;                                                      
-            }
-            
-        }
-
-        .lb_3-5 {
-            cursor: pointer;
-            margin-left: auto;
-
-            .provencesanté {
-                width: 146px;
-                height: auto;
-                padding-right: 20px;
-            }
-            .bloomea {
-                width: 130px;
-                height: auto;
-                padding-right: 20px;
-            }
-            .allonature {
-                width: 80px;
-                height: auto;
-                padding-right: 20px;
-            }
-        }
-
-        
-    }
-    
-.header2, .navbar{
-        background-color: #73923A;
-        width: 100%;
-        height: 100px;
-            
-      .navlink, .navlinks, a{
-          display: flex;
-          justify-content: center;
-          align-items: center; 
-          background: none;
-          text-decoration: none; 
-          list-style: none;
-          color: #FFFFFF;
-          font-size: 16px;
-          padding-top: 10px;
-          padding-bottom: 5px;
-        //   padding-left: 15px;
-          padding-right: 0.9vw;
-      }
-      
-      span{
-          display: flex;
-          
-          
-        color: #FFFFFF;
-          width: 80%;
-          height: 3px;
-          margin-left: 10%;
-          border-radius: 90px;
-          
-      }
-    }
-    .header_img{
-        width: 100%;
-        .header_img_caption{
-            width: 50%;
-            height: 300px;
-            color: #FFFFFF;
-            background-color: #ffffff46;
-            position: absolute;
-            top: 15%;
-            left: 25%;
-            right: 25%;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            justify-content: center; 
-            text-align: center;
-            font-size: 58px;   
-            font-family: 'Newsreader';      
-        }
-    }
-
-}
-@media screen and (max-width:1080px){
-    .header1 {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 10px 2%;
-        .lb_1-2 {
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-
-            margin-right: auto;
-
-            .essentielle {
-                width: 200px;
-                height: auto;
-                padding-right: 20px;
-            }
-            
-            .btn_adresse {
-                display:none;                                                      
-            }
-            
-        }
-
-        .lb_3-5 {
-            cursor: pointer;
-            margin-left: auto;
-
-            .provencesanté {
-                width: 146px;
-                height: auto;
-                padding-right: 20px;
-            }
-            .bloomea {
-                width: 130px;
-                height: auto;
-                padding-right: 20px;
-            }
-            .allonature {
-                width: 80px;
-                height: auto;
-                padding-right: 20px;
-            }
-        }
-
-        
-    }
-    .header2, .navbar{
-        background-color: #73923A;
-        width: 100%;
-        height: 100px;
-            
-      .navlink, .navlinks, .a_navlinks{
-          display: flex;
-          justify-content: center;
-          align-items: center; 
-          background: none;
-          text-decoration: none; 
-          list-style: none;
-          color: #FFFFFF;
-          font-size: 14px;
-          padding-top: 10px;
-          padding-bottom: 5px;
-        //   padding-left: 15px;
-          padding-right: 0.9vw;
-      }
-      
-      .span_header{
-          display: flex;
-          color: #FFFFFF;
-          width: 90%;
-          height: 3px;
-          margin-left: 5%;
-          margin-right: 5%;
-          border-radius: 90px;
-          
-      }
-    }
-    .header_img{
-position: relative;
-        .header_img_caption{
-            width: 50%;
-            height: 300px;
-            color: #FFFFFF;
-            background-color: #ffffff46;
-            position: absolute;
-            top: 15%;
-            left: 25%;
-            right: 25%;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            justify-content: center; 
-            text-align: center;
-            font-size: 58px;   
-            font-family: 'Newsreader';      
-        }
-    }
 }
     

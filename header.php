@@ -20,6 +20,56 @@
    </div>
    <div class="header2">
 
+      <div class="navbar_bootstrap">    
+      <nav class="navbar navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <img src="img/burger1.png" alt="burger">
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        
+        <button type="button" class="btn_close" data-bs-dismiss="offcanvas" aria-label="Close">
+           <img src="img/close1.png" alt="">
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Epilations</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Main et pieds</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Maquillage</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Soin visage</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Soin corps</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Amincissement</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Bon cadeau</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Nous contacter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+
+
   <ul class="navlink">
        <li class="navlinks" ><a class="a_navlinks" href="#">Acceuil</a></li>
        <li class="navlinks" ><a href="#" class="a_navlinks">Epilations</a></li>

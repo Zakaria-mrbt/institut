@@ -1,0 +1,164 @@
+@media screen and (max-width:860px){
+    .container-fluid{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .offcanvas-end{
+        top: -63px;
+        right: 0px;
+        width: 100%;
+        border-left: none;
+        transform: translateX(100%);
+        height: auto;  
+        position: relative !important;       
+    }
+    .navbar-toggler {
+        color: transparent!important;
+        border-color: transparent!important;
+        padding-top: 25px;
+        padding-left: 28px;
+    }
+    .nav-item a{
+        color: #ffffff!important;
+    }
+    .offcanvas-header{
+        background-color: #73923A;
+        height: 110px;
+    }
+    .offcanvas-body{
+        background-color: #83A04E; 
+    }
+    .btn_close{
+        border: none !important;
+        background-color: #73923A !important;
+        padding-left: 7px;
+    }
+    .offcanvas-backdrop.show{
+        opacity: 0 !important;
+    }
+}
+@media screen and (max-width:1080px){
+/////////////////////////////// header media //////////////////////////////
+    .header1 {   
+        .lb_1-2 { 
+            .btn_adresse {
+                display:none;                                                      
+            }           
+        } 
+    }
+    .navlink, .navlinks, .a_navlinks{
+        font-size: 14px !important;  
+        padding-right: 0.5vw !important;                                    
+    }  
+    .header2, .navbar{         
+        .span_header{
+          width: 90% !important;        
+          margin-left: 5% !important;
+          margin-right: 5%;
+        }
+    }         
+    /////////////////////////////// body media //////////////////////////////
+    .institut_article1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .offre1{
+        background-color: #73923A;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;        
+        margin-top: 400px;     
+        .offre1, p{
+            background-color: #73923A;
+            width: 400px;
+            font-size: 28px;
+            color: #FFFFFF;
+        }
+    }
+
+// prestation //
+.prestation{
+    margin-top: 150px; 
+    .cards_prestation{
+        margin-inline: 10px;
+    .cards_prestation_title{
+        margin: 20px;
+        font-size: 24px;
+        color: #83A04E;
+    }
+        img{
+            width: 240px;
+            height: auto;   
+        }
+    .cards_prestation, p {
+        padding-bottom: 20px;
+        width: 240px;
+    }        
+    }
+}
+//     ??     //
+
+.nous_contacter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    background-color: #73923A;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    img{
+        background: none;
+    }
+    p{
+        background: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin: 20px;
+    }
+    .btn_contact{
+        height: 64px;
+width: 215px;
+    }
+    .btn_contact:hover{
+        background-color: #f8faf4;
+        height: 66px;
+        width: 224px;
+        font-size: 22px;
+    }
+}
+/////////////////////////////// petitplus media //////////////////////////////
+.petitplus{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .petitplus_div{
+        width: 150px;
+        height: auto;
+        margin-inline: 60px;
+    }
+    
+    
+}
+/////////////////////////////// footer media //////////////////////////////
+.footer1{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+        .footer_info{
+            margin-top: 50px;
+        }
+}
+
+
+}
+
+
+@media screen and (max-width:860px){
+
+}
+    
