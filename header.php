@@ -21,20 +21,25 @@
    <div class="header2">
 
   <ul class="navlink">
-       <li class="navlinks" ><a href="#">Acceuil</a></li>
-       <li class="navlinks" ><a href="#">Epilations</a></li>
-       <li class="navlinks" ><a href="#">Main et pieds</a></li>
-       <li class="navlinks" ><a href="#">Maquillage</a></li>
-       <li class="navlinks" ><a href="#">Soin visage</a></li>
-       <li class="navlinks" ><a href="#">Soin corps</a></li>
-       <li class="navlinks" ><a href="#">Amincissement</a></li>
-       <li class="navlinks" ><a href="#">Bon cadeau</a></li>
-       <li class="navlinks" ><a href="#">Nous contacter</a></li>
+       <li class="navlinks" ><a class="a_navlinks" href="#">Acceuil</a></li>
+       <li class="navlinks" ><a href="#" class="a_navlinks">Epilations</a></li>
+       <li class="navlinks" ><a href="#" class="a_navlinks">Main et pieds</a></li>
+       <li class="navlinks" ><a href="#" class="a_navlinks">Maquillage</a></li>
+       <li class="navlinks" ><a href="#" class="a_navlinks">Soin visage</a></li>
+       <li class="navlinks" ><a href="#" class="a_navlinks">Soin corps</a></li>
+       <li class="navlinks" ><a href="#" class="a_navlinks">Amincissement</a></li>
+       <li class="navlinks" ><a href="#" class="a_navlinks">Bon cadeau</a></li>
+       <li class="navlinks" ><a href="#" class="a_navlinks">Nous contacter</a></li>
     </ul>  
-<span></span>
-
-   
+<span class="span_header"></span>
+ </div>
     
-   </div>
-   
+<div class="header_img"><img src="img/acceuil1.png" alt="acceuil">
+
+<div>
+   <h1 class="header_img_caption">Essentielles institut de beauté à Marseille</h1>
+</div>
+</div>
+
+
 </header>

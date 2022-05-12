@@ -1,0 +1,275 @@
+.institut_article1_title{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.institut_article1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    .institut_article1_p{
+        display: flex;
+        text-align: justify;
+        width: 585px;
+        height: 469px;
+        margin-right: 30px;
+        .article1_p{
+            padding-top: 20px;
+        }
+        .btn_article1{
+            background-color: #73923A;
+            color: #FFFFFF;
+            border: solid 2px;
+            border-radius: 90px;
+            height: 70px;
+            width: 300px;
+            font-size: 20px;
+            margin-top: 30px;
+
+            
+        }
+        .btn_article1:hover{
+                background-color: #83A04E;
+            }
+    }
+    .institut_article1_img{
+        margin-left: 30px;
+    }
+    
+}
+
+.offre1{
+    background-color: #73923A;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    
+    margin-top: 400px;
+    
+    .offre1, p{
+        background-color: #73923A;
+        width: 400px;
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+}
+
+.prestation{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+    
+    .cards_prestation{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        text-align: center;
+        margin-inline: 40px;
+        width: 300px;
+    height: 400px;
+        
+    .cards_prestation_title{
+        margin: 20px;
+        font-size: 24px;
+        color: #83A04E;
+    }
+        img{
+            width: 250px;
+            height: auto;
+            
+        }
+    .cards_prestation, p {
+        padding-bottom: 20px;
+    }
+        .btn_cards_prestation{
+        background-color: #73923A;
+        color: #FFFFFF;
+        border: solid 2px;
+        border-radius: 90px;
+        height: 50px;
+        width: 170px;
+        font-size: 20px;
+        margin-top: 30px;
+        
+        }
+        
+        .btn_cards_prestation:hover{
+                background-color: #83A04E;
+            }
+
+            .btn_cards_prestation_a{
+                background-color: #73923A;
+                color: #FFFFFF;
+                border: solid 2px;
+                border-radius: 90px;
+                height: 50px;
+                width: 170px;
+                font-size: 20px;
+                margin-top: 70px;
+            }
+    }
+
+
+
+
+} 
+
+.nous_contacter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    background-color: #73923A;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    img{
+        background: none;
+    }
+    p{
+        background: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin: 20px;
+    }
+    .btn_contact{
+        cursor: pointer;
+        background-color: #FFFFFF;
+        color: #73923A;
+        border: solid 2px;
+        border-radius: 90px;
+        height: 70px;
+        width: 250px;
+        font-size: 20px;
+    }
+    .btn_contact:hover{
+        background-color: #f8faf4;
+        height: 75px;
+        width: 295px;
+        font-size: 24px;
+    }
+}
+
+.petitplus{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .petitplus_div, p{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin-inline: 100px;
+        width: 250px;
+        height: auto;
+        
+    }
+}
+
+
+
+@media screen and (max-width:1080px){
+    .institut_article1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .offre1{
+        background-color: #73923A;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        
+        margin-top: 250px;
+        
+        .offre1, p{
+            background-color: #73923A;
+            width: 400px;
+            font-size: 28px;
+            color: #FFFFFF;
+        }
+    }
+
+// prestation //
+
+//     ??     //
+
+
+.nous_contacter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: #73923A;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    img{
+        background: none;
+        width: 100px;
+    }
+    p{
+        background: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin: 20px;
+    }
+    .btn_contact{
+        cursor: pointer;
+        background-color: #FFFFFF;
+        color: #73923A;
+        border: solid 2px;
+        border-radius: 90px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .btn_contact:hover{
+        background-color: #f8faf4;
+        height: 55px;
+        width: 240px;
+        font-size: 24px;
+    }
+}
+
+    .petitplus{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .petitplus_div, p{
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            margin-inline: 100px;
+            width: 150px;
+            height: auto;
+            
+        }
+        .petitplus_img{
+            width: 80px;
+        } 
+    }
+    
+}
