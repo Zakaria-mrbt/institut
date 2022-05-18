@@ -1,4 +1,7 @@
-@media screen and (max-width:860px){
+@media screen and (max-width:1060px){
+    // .navbar_bootstrap{
+    //     display: ;
+    // } 
     .container-fluid{
         padding-right: 0px;
         padding-left: 0px;
@@ -159,6 +162,60 @@ width: 215px;
 
 
 @media screen and (max-width:860px){
+    .navbar_bootstrap{
+        display: contents!important;
+        }
+    .horaires_smart{
+        display: flex;
+        flex-direction: column;
+    }
+    //offre1//
+    .offre1{
+        margin-top: 750px;
+    }
+    .institut_article1_img{
+        
+        width: 90vw!important;
+    }
+//Prestation//
+    .prestation{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        flex-direction: column;
+        margin-inline: 30px!important;
+        
+    }
+    .cards_prestation{
+        margin-bottom: 260px;
+        width: auto!important;
+    }
+    .btn_cards_prestation_a{
+        
+        margin-top: 0px!important;
+        
+        }
+        .btn_cards_prestation{
+        
+            margin-top: 0px!important;
+            
+            }
+            //nous contacter//
+            .nous_contacter{
+                margin-top: -120px!important;
+            }
+
+            //petit plus//
+            .petitplus{
+                display: flex;
+flex-direction: column;
+            }
+            .petitplus_div{
+                margin-bottom: 40px!important;
+            }
+            
 
 }
+
+
     

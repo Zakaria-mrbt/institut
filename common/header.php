@@ -2,7 +2,7 @@
 <header>
    <div class="header1">
        <div class="lb_1-2">
-         <a href="#"> <img class="essentielle" src="img/logo3.png" alt="essentielle"></a>
+         <a href="#"> <img class="essentielle" src="img/logo4.png" alt="essentielle"></a>
          <div class="adresse">
              
         <button class="btn_adresse" type="button"> <div class='imgg'></div><a href="#" class="adresse_links"> 76 Boulevard Eugène Pierre, 13005 Marseille, France</a></button>
@@ -36,7 +36,7 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Acceuil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Epilations</a>
@@ -60,7 +60,7 @@
           <a class="nav-link" href="#">Bon cadeau</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Nous contacter</a>
+          <a class="nav-link" href="contact.php">Nous contacter</a>
           </li>
         </ul>
       </div>
@@ -71,7 +71,7 @@
 
 
   <ul class="navlink">
-       <li class="navlinks" ><a class="a_navlinks" href="#">Acceuil</a></li>
+       <li class="navlinks" ><a class="a_navlinks" href="index.php">Acceuil</a></li>
        <li class="navlinks" ><a href="#" class="a_navlinks">Epilations</a></li>
        <li class="navlinks" ><a href="#" class="a_navlinks">Main et pieds</a></li>
        <li class="navlinks" ><a href="#" class="a_navlinks">Maquillage</a></li>
@@ -79,7 +79,7 @@
        <li class="navlinks" ><a href="#" class="a_navlinks">Soin corps</a></li>
        <li class="navlinks" ><a href="#" class="a_navlinks">Amincissement</a></li>
        <li class="navlinks" ><a href="#" class="a_navlinks">Bon cadeau</a></li>
-       <li class="navlinks" ><a href="#" class="a_navlinks">Nous contacter</a></li>
+       <li class="navlinks" ><a href="contact.php" class="a_navlinks">Nous contacter</a></li>
     </ul>  
 <span class="span_header"></span>
  </div>

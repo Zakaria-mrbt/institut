@@ -1,7 +1,12 @@
 .institut_article1_title{
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    
 }
 
 .institut_article1{
@@ -10,12 +15,15 @@
     align-items: center;
     
     
+    
+    
     .institut_article1_p{
         display: flex;
         text-align: justify;
-        width: 585px;
+        max-width: 585px;
+        width: 80%;
         height: 469px;
-        margin-right: 30px;
+        
         .article1_p{
             padding-top: 20px;
         }
@@ -34,7 +42,9 @@
             }
     }
     .institut_article1_img{
-        margin-left: 30px;
+        
+        width: 46vw;
+        padding-left: 40px;
     }
     
 }
@@ -55,6 +65,7 @@
         width: 400px;
         font-size: 28px;
         color: #FFFFFF;
+        font-weight: bold;
     }
 }
 

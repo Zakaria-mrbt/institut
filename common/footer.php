@@ -16,34 +16,34 @@
     </div>
     <div class="footer_info" class="footer_horaire">
         <h3 class="footer_title">Horaires</h3>
-        <div>
-            <div>
-             <ul class="footer_horaires">
+        <div class="horaires_smart">
+            <div >
+                <div >
+            <ul class="footer_horaires">
                 <li>Lundi</li>
                 <li>Mardi</li>
                 <li>Mercredi</li>
-            </ul> 
-            <ul class="footer_horaires">
-                <li>Fermé</li>
-                <li>09h00-12h30 / 14530-19h00</li>
-                <li>09h00-12h30 / 14530-19h00</li>
-            </ul>  
-            </div>
-            <span></span>
-            <div>
-            <ul class="footer_horaires" >
                 <li>Jeudi</li>
                 <li>Vendredi</li>
                 <li>Samedi</li>
                 <li>dimanche</li>
-            </ul> 
-            <ul class="footer_horaires" >
-                <li>09h00-12h30 / 14h30-19h00</li>
-                <li>09h00-12h30 / 14h30-19h00</li>
-                <li>09h00-12h30 / 14h30-19h00</li>
+            </ul>    
+                </div>
+              <div>
+              <ul class="footer_horaires">
                 <li>Fermé</li>
-            </ul> 
+                <li>09h00-19h00</li>
+                <li>09h00-19h00</li>
+                <li>09h00-19h00</li>
+                <li>09h00-19h00</li>
+                <li>09h00-19h00</li>
+                <li>Fermé</li>
+            </ul>    
+              </div>
+              
             </div>
+            <span></span>
+            
             
         </div>   
     </div>
